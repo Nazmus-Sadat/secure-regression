@@ -10,15 +10,15 @@ Site::Site()
 Site::Site(int rows, int cols, BigPoly PK, int ID)
 {
 	//no_of_features = noOofFeatures;
-	string dataPath ; // = "C:\\Users\\sadat\\MyDrive\\FederatedRegression\\Logistic\\SEARCHER\\data_owner\\data\\ucihaberman.txt";
+	string dataPath ; 
 	if (ID == 1)
 	{
-		//dataPath = "C:\\Users\\sadat\\MyDrive\\FederatedRegression\\Logistic\\SEARCHER\\data_owner\\data\\haberpart1.txt";
-		dataPath = "C:\\Users\\sadat\\MyDrive\\FederatedRegression\\Logistic\\SEARCHER\\data_owner\\data\\haberpart1.txt";
+		//Please update accordingly
+		dataPath = "..\\data\\input1.txt";
 	}
 	else
 	{
-		dataPath = "C:\\Users\\sadat\\MyDrive\\FederatedRegression\\Logistic\\SEARCHER\\data_owner\\data\\haberpart2.txt";
+		dataPath = "..\\data\\input2.txt";
 	}
 	std::ifstream in(dataPath);
 	std::string line;
