@@ -1,0 +1,19 @@
+﻿  Creating untrusted proxy/bridge routines
+  isv_app.cpp
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(70): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(72): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\service_provider\service_provider.h(175): warning C4190: 'getPublicKey' has C-linkage specified, but returns UDT 'seal::BigPoly' which is incompatible with C
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\bigpoly.h(51): note: see declaration of 'seal::BigPoly'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(138): warning C4100: 'file': unreferenced formal parameter
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(145): warning C4189: 'array': local variable is initialized but not referenced
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(233): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(992): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(1010): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(1057): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(1044): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::size_t'
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(1044): note: consider using '%zd' in the format string
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_app\isv_app.cpp(274): warning C4100: 'argv': unreferenced formal parameter
+  isv_enclave_u.c
+  isv_app.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\isv_app.exe
+  isv_app.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\isv_app.pdb (Full PDB)
+          1 file(s) copied.

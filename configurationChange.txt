@@ -1,0 +1,4 @@
+1. feature size + 1 in edl file
+2. In isv_enclave, M, N.
+3. In isv_app, variables nrows, ncols and data owner constructor (site)
+4. In Site.cpp, datapath.

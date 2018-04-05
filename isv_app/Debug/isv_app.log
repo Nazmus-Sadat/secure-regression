@@ -1,0 +1,9 @@
+﻿  Creating untrusted proxy/bridge routines
+  isv_app.cpp
+isv_app.cpp(95): message #869: parameter "file" was never referenced
+        FILE *file, void *mem, uint32_t len)
+              ^
+  
+  stdafx.cpp
+  isv_enclave_u.c
+          1 file(s) copied.

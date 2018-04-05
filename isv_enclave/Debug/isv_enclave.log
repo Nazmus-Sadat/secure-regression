@@ -1,0 +1,167 @@
+﻿  isv_enclave.cpp
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(289): message #3346: dynamic exception specifications are deprecated
+      allocator() _STLP_NOTHROW {}
+                  ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(291): message #3346: dynamic exception specifications are deprecated
+      template <class _Tp1> allocator(const allocator<_Tp1>&) _STLP_NOTHROW {}
+                                                              ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(293): message #3346: dynamic exception specifications are deprecated
+      allocator(const allocator<_Tp>&) _STLP_NOTHROW {}
+                                       ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(297): message #3346: dynamic exception specifications are deprecated
+      ~allocator() _STLP_NOTHROW {}
+                   ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(330): message #3346: dynamic exception specifications are deprecated
+      size_type max_size() const _STLP_NOTHROW  { return size_t(-1) / sizeof(value_type); }
+                                 ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(381): message #3346: dynamic exception specifications are deprecated
+    inline bool _STLP_CALL operator==(const allocator<_T1>&, const allocator<_T2>&) _STLP_NOTHROW
+                                                                                    ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_alloc.h(384): message #3346: dynamic exception specifications are deprecated
+    inline bool _STLP_CALL operator!=(const allocator<_T1>&, const allocator<_T2>&) _STLP_NOTHROW
+                                                                                    ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_stdexcept_base.h(74): message #3346: dynamic exception specifications are deprecated
+      const char* what() const _STLP_NOTHROW_INHERENTLY;
+                               ^
+  
+C:\Program Files (x86)\Intel\IntelSGXSDK\include\stlport\stl/_stdexcept_base.h(75): message #3346: dynamic exception specifications are deprecated
+      ~__Named_exception() _STLP_NOTHROW_INHERENTLY;
+                           ^
+  
+  Default key derivation function is used.
+isv_enclave.cpp(498): message #3280: declaration hides variable "g" (declared at line 104)
+    	BigInteger g = stringToBigInteger(gstr);
+    	           ^
+  
+isv_enclave.cpp(500): message #3280: declaration hides variable "lambda" (declared at line 104)
+    	BigUnsigned lambda = stringToBigUnsigned(lambdastr);
+    	            ^
+  
+isv_enclave.cpp(539): message #3280: declaration hides variable "g" (declared at line 104)
+    	BigInteger g(5);
+    	           ^
+  
+isv_enclave.cpp(541): message #3280: declaration hides variable "lambda" (declared at line 104)
+    	BigUnsigned lambda = stringToBigUnsigned(lambdaString);
+    	            ^
+  
+isv_enclave.cpp(537): message #869: parameter "gstr" was never referenced
+    std::string decryption(char* CT,string gstr, string lambdastr)
+                                           ^
+  
+isv_enclave.cpp(537): message #869: parameter "lambdastr" was never referenced
+    std::string decryption(char* CT,string gstr, string lambdastr)
+                                                        ^
+  
+isv_enclave.cpp(577): message #3280: declaration hides variable "g" (declared at line 104)
+    	BigInteger g(5);
+    	           ^
+  
+isv_enclave.cpp(579): message #3280: declaration hides variable "lambda" (declared at line 104)
+    	BigUnsigned lambda = stringToBigUnsigned(lambdaString);
+    	            ^
+  
+isv_enclave.cpp(610): message #2557: comparison between signed and unsigned operands
+    	if (len > strlen(secret))
+    	        ^
+  
+isv_enclave.cpp(620): message #869: parameter "len_ldmatrix" was never referenced
+    void ld(char** input, char* ldResult, int len_ldmatrix, int len_ldResult)
+                                              ^
+  
+isv_enclave.cpp(620): message #869: parameter "len_ldResult" was never referenced
+    void ld(char** input, char* ldResult, int len_ldmatrix, int len_ldResult)
+                                                                ^
+  
+isv_enclave.cpp(693): message #869: parameter "len_hwematrix" was never referenced
+    void hwe(char** input, char* hweResult, int len_hwematrix, int len_hweResult)
+                                                ^
+  
+isv_enclave.cpp(693): message #869: parameter "len_hweResult" was never referenced
+    void hwe(char** input, char* hweResult, int len_hwematrix, int len_hweResult)
+                                                                   ^
+  
+isv_enclave.cpp(728): message #869: parameter "len_cattmatrix" was never referenced
+    void catt(char** input, char* cattResult, int len_cattmatrix, int len_cattResult)
+                                                  ^
+  
+isv_enclave.cpp(728): message #869: parameter "len_cattResult" was never referenced
+    void catt(char** input, char* cattResult, int len_cattmatrix, int len_cattResult)
+                                                                      ^
+  
+isv_enclave.cpp(1054): error #264: floating-point value does not fit in required floating-point type
+    			if (cprob == INFINITY) {
+    			             ^
+  
+isv_enclave.cpp(1120): error #264: floating-point value does not fit in required floating-point type
+    				if (cprob == INFINITY) {
+    				             ^
+  
+isv_enclave.cpp(1251): error #264: floating-point value does not fit in required floating-point type
+    			if (cprob == INFINITY) {
+    			             ^
+  
+isv_enclave.cpp(1296): message #869: parameter "len_cattmatrix" was never referenced
+    void fet(char** input, char* fetResult, int len_cattmatrix, int len_fetResult)
+                                                ^
+  
+isv_enclave.cpp(1296): message #869: parameter "len_fetResult" was never referenced
+    void fet(char** input, char* fetResult, int len_cattmatrix, int len_fetResult)
+                                                                    ^
+  
+isv_enclave.cpp(1317): message #177: variable "sum" was declared but never referenced
+    	int sum = case_sum + control_sum;
+    	    ^
+  
+isv_enclave.cpp(1320): message #177: variable "AA_sum" was declared but never referenced
+    	int AA_sum = N_AA_case_d + N_AA_control_d;
+    	    ^
+  
+isv_enclave.cpp(1321): message #177: variable "Aa_sum" was declared but never referenced
+    	int Aa_sum = N_Aa_case_d + N_Aa_control_d;
+    	    ^
+  
+isv_enclave.cpp(1322): message #177: variable "aa_sum" was declared but never referenced
+    	int aa_sum = N_aa_case_d + N_aa_control_d;
+    	    ^
+  
+isv_enclave.cpp(1326): message #177: variable "denominator" was declared but never referenced
+    	int denominator = factorial(5)* factorial(4)*factorial(3)*factorial(3)*factorial(3);
+    	    ^
+  
+isv_enclave.cpp(1327): message #177: variable "numerator" was declared but never referenced
+    	int numerator = factorial(1)*factorial(2)*factorial(2)*factorial(2)*factorial(1)*factorial(1)*factorial(19);
+    	    ^
+  
+isv_enclave.cpp(1366): message #3280: declaration hides variable "g" (declared at line 104)
+    	BigInteger g(5);
+    	           ^
+  
+isv_enclave.cpp(1367): message #3280: declaration hides variable "lambda" (declared at line 104)
+    	BigUnsigned lambda = stringToBigUnsigned("681187336829861685983477976074309227114055423213861997326044753839039065994675872317693880166082865602230364912349325536661776647701497008450899024296700");
+    	            ^
+  
+isv_enclave.cpp(1364): message #869: parameter "lenth_input" was never referenced
+    void hammingDistance(char** input,int* output,  int query, int limit,int lenth_input,int rows)
+                                                                             ^
+  
+isv_enclave.cpp(1443): message #3280: declaration hides variable "g" (declared at line 104)
+    	BigInteger g(5);
+    	           ^
+  
+isv_enclave.cpp(1444): message #3280: declaration hides variable "lambda" (declared at line 104)
+    	BigUnsigned lambda = stringToBigUnsigned("681187336829861685983477976074309227114055423213861997326044753839039065994675872317693880166082865602230364912349325536661776647701497008450899024296700");
+    	            ^
+  
+isv_enclave.cpp(1441): message #869: parameter "lenth_input" was never referenced
+    void euclidieanDistance(char** input,int* output,  int query, int limit,int lenth_input,int rows)
+                                                                                ^
+  
+  compilation aborted for isv_enclave.cpp (code 2)

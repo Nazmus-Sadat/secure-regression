@@ -1,0 +1,53 @@
+﻿  Creating proxy/bridge routines
+  isv_enclave.cpp
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\bigunsigned.h(23): warning C4516: 'NumberlikeArray<unsigned long>::NumberlikeArray<unsigned long>::N': access-declarations are deprecated; member using-declarations provide a better alternative
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\bigunsigned.h(87): warning C4516: 'NumberlikeArray<unsigned long>::NumberlikeArray<unsigned long>::getCapacity': access-declarations are deprecated; member using-declarations provide a better alternative
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\bigunsigned.h(88): warning C4516: 'NumberlikeArray<unsigned long>::NumberlikeArray<unsigned long>::getLength': access-declarations are deprecated; member using-declarations provide a better alternative
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\bigunsignedbase.h(103): warning C4516: 'NumberlikeArray<unsigned short>::NumberlikeArray<unsigned short>::getCapacity': access-declarations are deprecated; member using-declarations provide a better alternative
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\bigunsignedbase.h(104): warning C4516: 'NumberlikeArray<unsigned short>::NumberlikeArray<unsigned short>::getLength': access-declarations are deprecated; member using-declarations provide a better alternative
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\seal\util\common.h(70): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\seal\util\common.h(72): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+  Default key derivation function is used.
+isv_enclave.cpp(587): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+isv_enclave.cpp(594): warning C4018: '<': signed/unsigned mismatch
+isv_enclave.cpp(615): warning C4101: 'm': unreferenced local variable
+isv_enclave.cpp(615): warning C4101: 'k': unreferenced local variable
+isv_enclave.cpp(616): warning C4101: 't': unreferenced local variable
+isv_enclave.cpp(633): warning C4100: 'len_Result': unreferenced formal parameter
+isv_enclave.cpp(633): warning C4100: 'len_matrix': unreferenced formal parameter
+isv_enclave.cpp(749): warning C4018: '<': signed/unsigned mismatch
+isv_enclave.cpp(705): warning C4100: 'len_matrix': unreferenced formal parameter
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(177): warning C4018: '<': signed/unsigned mismatch
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(170): note: while compiling class template member function 'QSMatrix<double> QSMatrix<double>::inverse(void)'
+  isv_enclave.cpp(586): note: see reference to function template instantiation 'QSMatrix<double> QSMatrix<double>::inverse(void)' being compiled
+  isv_enclave.cpp(97): note: see reference to class template instantiation 'QSMatrix<double>' being compiled
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(179): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(187): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(189): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(191): warning C4389: '==': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(198): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(205): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(207): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(212): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(219): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(221): warning C4456: declaration of 'm' hides previous local declaration
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(217): note: see declaration of 'm'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(221): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\isv_enclave\matrix.cpp(217): warning C4101: 'm': unreferenced local variable
+  isv_enclave_t.c
+     Creating library C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\isv_enclave.lib and object C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\isv_enclave.exp
+  isv_enclave.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\isv_enclave.dll
+  isv_enclave.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\isv_enclave.pdb (Full PDB)
+  The required memory is 0x3e5000.
+  Succeed.
+  <EnclaveConfiguration>
+      <ProdID>0</ProdID>
+      <ISVSVN>0</ISVSVN>
+      <StackMaxSize>0x80000</StackMaxSize>
+      <HeapMaxSize>0x200000</HeapMaxSize>
+      <TCSNum>1</TCSNum>
+      <TCSPolicy>1</TCSPolicy>
+      <DisableDebug>0</DisableDebug>
+      <MiscSelect>0</MiscSelect>
+      <MiscMask>0xFFFFFFFF</MiscMask>
+  </EnclaveConfiguration>

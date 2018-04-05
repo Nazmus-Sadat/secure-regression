@@ -1,0 +1,34 @@
+﻿  uintextras.cpp
+  uintcore.cpp
+  uintarithmod.cpp
+  uintarith.cpp
+  polymodulus.cpp
+  polyfftmultmod.cpp
+  polyfftmult.cpp
+  polyextras.cpp
+  polycore.cpp
+  polyarithmod.cpp
+  polyarith.cpp
+  modulus.cpp
+  mempool.cpp
+  computation.cpp
+  common.cpp
+  clipnormal.cpp
+  utilities.cpp
+  simulator.cpp
+  randomgen.cpp
+  keygenerator.cpp
+  Generating Code...
+  Compiling...
+  evaluator.cpp
+  evaluationkeys.cpp
+  encryptor.cpp
+  encryptionparams.cpp
+  encoder.cpp
+  decryptor.cpp
+  chooser.cpp
+  biguint.cpp
+  bigpolyarith.cpp
+  bigpoly.cpp
+  Generating Code...
+  SEAL.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\bin\x64\Debug\SEAL.lib

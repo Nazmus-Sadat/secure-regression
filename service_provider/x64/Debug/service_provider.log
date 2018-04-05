@@ -1,0 +1,34 @@
+﻿  dllmain.cpp
+  service_provider.cpp
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(70): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(72): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\service_provider\service_provider.h(175): warning C4190: 'getPublicKey' has C-linkage specified, but returns UDT 'seal::BigPoly' which is incompatible with C
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\bigpoly.h(51): note: see declaration of 'seal::BigPoly'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\service_provider\service_provider.cpp(597): warning C4189: 'OUTPUT': local variable is initialized but not referenced
+  network_ra.cpp
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(82): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(82): warning C4003: not enough actual parameters for macro 'max'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(86): warning C4003: not enough actual parameters for macro 'max'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(86): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(88): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(90): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(92): warning C4003: not enough actual parameters for macro 'max'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(103): warning C4003: not enough actual parameters for macro 'max'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(103): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(104): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\randomgen.h(110): warning C4003: not enough actual parameters for macro 'min'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(70): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(72): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\service_provider\service_provider.h(175): warning C4190: 'getPublicKey' has C-linkage specified, but returns UDT 'seal::BigPoly' which is incompatible with C
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\bigpoly.h(51): note: see declaration of 'seal::BigPoly'
+  ias_ra.cpp
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(70): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\util\common.h(72): warning C4244: 'return': conversion from 'int' to 'char', possible loss of data
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\service_provider\service_provider.h(175): warning C4190: 'getPublicKey' has C-linkage specified, but returns UDT 'seal::BigPoly' which is incompatible with C
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\bigpoly.h(51): note: see declaration of 'seal::BigPoly'
+  ecp.cpp
+  Default key derivation function is used.
+  Generating Code...
+     Creating library C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\service_provider.lib and object C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\service_provider.exp
+  service_provider.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\service_provider.dll
+  service_provider.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\service_provider.pdb (Full PDB)

@@ -1,0 +1,39 @@
+enclave {
+    from "sgx_tkey_exchange.edl" import *;
+
+    include "sgx_key_exchange.h"
+    include "sgx_trts.h"
+	include "stdio.h"
+	include "string.h"
+	
+	
+    trusted {
+        public sgx_status_t enclave_init_ra(int b_pse,
+                                            [out] sgx_ra_context_t *p_context);
+        public sgx_status_t enclave_ra_close(sgx_ra_context_t context);
+        public sgx_status_t verify_att_result_mac(sgx_ra_context_t context,
+                                                  [in,size=message_size] uint8_t* message, 
+                                                  size_t message_size, 
+                                                  [in,size=mac_size] uint8_t* mac, 
+                                                  size_t mac_size);
+        public sgx_status_t put_secret_data(sgx_ra_context_t context,  
+                                            [in,size=secret_size] uint8_t* p_secret,
+                                            uint32_t secret_size,
+                                            [in,count=16] uint8_t* gcm_mac);
+
+
+         /* define ECALLs here. */
+		
+		public void transferMatrix([in, size=len_matrix] char* input, [out, size=len_Result] char* Result, int len_matrix, int len_Result);
+		public void transferMatrixXtY([in, size=len_matrix] char* input, [out] double Beta[4], int len_matrix);
+
+		
+
+    };
+
+	untrusted {
+        void ocall_print_string([in, string] const char *str);
+
+    };
+
+};

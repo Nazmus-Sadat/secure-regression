@@ -1,0 +1,7 @@
+﻿  Site.cpp
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\service_provider\service_provider.h(175): warning C4190: 'getPublicKey' has C-linkage specified, but returns UDT 'seal::BigPoly' which is incompatible with C
+  c:\users\sadat\mydrive\federatedregression\logistic\searcher\seal\bigpoly.h(51): note: see declaration of 'seal::BigPoly'
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\data_owner\site.cpp(198): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\data_owner\site.cpp(200): warning C4018: '<': signed/unsigned mismatch
+c:\users\sadat\mydrive\federatedregression\logistic\searcher\data_owner\site.cpp(223): warning C4018: '<': signed/unsigned mismatch
+  data_owner.vcxproj -> C:\Users\sadat\MyDrive\FederatedRegression\Logistic\SEARCHER\x64\Debug\data_owner.lib

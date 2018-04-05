@@ -1,0 +1,11 @@
+﻿  dllmain.cpp
+  ecp.cpp
+  Default key derivation function is used.
+  ias_ra.cpp
+  network_ra.cpp
+  service_provider.cpp
+service_provider.cpp(108): message #3457: conversion from a string literal to "char *" is deprecated
+    char* mysecret = "5-4796803555973356791818674510632926892407882586692588151734953690210800008847361929847747957286738245101626609080248778027443254771400903147580088452877004";
+                     ^
+  
+     Creating library C:\Users\Sadat\Softs\Intel SGX\src\SAFETY\Debug\service_provider.lib and object C:\Users\Sadat\Softs\Intel SGX\src\SAFETY\Debug\service_provider.exp
